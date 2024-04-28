@@ -11,16 +11,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(https://source.unsplash.com/1920x1080/?landscape);
+    background-color: #3586ff5b;
 }
 
 .caixa1{
-    background: #000000;
+    background: #000000d0;
     opacity: 0.8;
     border-radius: 25px;
     padding: 1.3rem;
     width: 95%;
-    max-width: 450px;
+    max-width: 700px;
 }
 
 .input-cidade{
@@ -30,9 +30,10 @@ body{
     border-radius: 25px;
     font-size: 20px;
     background-color: #7c7c7c2b;
-    color: #eee;
+    color: #ffffff;
     width: calc(100% - 100px);
 }
+
 
 .botao-busca{
     border: none;
@@ -45,7 +46,7 @@ body{
 }
 
 .img-busca{
-    width: 24px;
+    width: 27px;
 }
 
 .caixa2{
@@ -54,14 +55,14 @@ body{
 
 
 .cidade{
-    color: #eee;
+    color: #ffffff;
     font-size: 28px;
     font-weight: 500;
 }
 
 .temp{
     font-size: 20px;
-    color: #eee;
+    color: #ffffff;
     margin-top: 20px;
 }
 
@@ -73,11 +74,11 @@ body{
 
 .previsao{
     text-transform: capitalize;
-    color: #eee;
+    color: #ffffff;
     margin-left: 20px;
 }
 
 .umidade{
-    color: #eee;
+    color: #ffffff;
     margin-top: 20px;
 }
